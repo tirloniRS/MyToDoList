@@ -24,6 +24,10 @@
             android:name=".CadUsuarioActivity"
             android:label="@string/title_activity_cad_usuario" >
         </activity>
+        <activity
+            android:name=".ListUsuariosActivity"
+            android:label="@string/title_activity_list_usuarios" >
+        </activity>
     </application>
 
 </manifest>

@@ -3,22 +3,32 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="salvar">Salvar</string>
+    <string name="excluir">Excluir</string>
+    <string name="sair">Sair</string>
+    <string name="usuarios">Usuários</string>
     <!--Login-->
     <string name="login_txtUsuario">Usuário</string>
     <string name="login_Senha">Senha</string>
     <string name="login_btnEntrar">Entrar</string>
     <string name="login_ckbConectado">Manter conectado?</string>
     <!--Validações-->
-    <string name="login_valUsuario">Usuario obrigatório.</string>
+    <string name="login_valUsuario">Usuário obrigatório.</string>
     <string name="login_valSenha">Senha obrigatório.</string>
+    <string name="campo_obrigatorio">Campo obrigatório.</string>
     <!--Mensagens-->
     <string name="msg_loginIncorreto">Usuário e /ou senha inválido.</string>
     <string name="title_activity_cad_usuario">CadUsuarioActivity</string>
+    <string name="mensagem_sucesso">Registro cadastrado com sucesso!</string>
+    <string name="mensagem_atualizar">Registro atualizado com sucesso!</string>
+    <string name="mensagem_erro">Erro ao salvar!</string>
 
     <!--Usuários-->
     <string name="usuario_txtNome">Nome:</string>
     <string name="usuario_txtLogin">Login:</string>
     <string name="usuario_txtSenha">Senha:</string>
+    <string name="title_activity_list_usuarios">ListUsuariosActivity</string>
+    <string name="lista_usuarios">Lista de Usuários</string>
 
 
 </resources>

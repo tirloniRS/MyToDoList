@@ -3,8 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_settings"
-        android:title="@string/action_settings"
+        android:id="@+id/action_menu_salvar"
+        android:title="@string/salvar"
         android:orderInCategory="100"
-        app:showAsAction="always" />
+        android:icon="@drawable/ic_action_save"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/action_menu_excluir"
+        android:title="@string/excluir"
+        android:visible="false"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_discard"
+        app:showAsAction="ifRoom|withText" />
+
+    <item
+        android:id="@+id/action_menu_sair"
+        android:title="@string/sair"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
 </menu>
