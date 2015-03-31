@@ -1,5 +1,6 @@
 package com.example.tirloni.mytodolist;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -30,9 +31,7 @@ public class ListUsuariosActivity extends ActionBarActivity {
 
         lista = (ListView)findViewById(R.id.lvUsuarios);
         lista.setAdapter(usuarioAdapter);
-
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -45,8 +44,9 @@ public class ListUsuariosActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        if (id == R.id.action_cadastrar_usuario) {
+            startActivity(new Intent(this, CadUsuarioActivity.class));
+
         }
 
         return super.onOptionsItemSelected(item);

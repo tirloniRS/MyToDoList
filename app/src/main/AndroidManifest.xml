@@ -23,10 +23,16 @@
         <activity
             android:name=".CadUsuarioActivity"
             android:label="@string/title_activity_cad_usuario" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ListUsuariosActivity"/>
         </activity>
         <activity
             android:name=".ListUsuariosActivity"
             android:label="@string/title_activity_list_usuarios" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
         </activity>
     </application>
 

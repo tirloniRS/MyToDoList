@@ -18,7 +18,7 @@
     <string name="campo_obrigatorio">Campo obrigatório.</string>
     <!--Mensagens-->
     <string name="msg_loginIncorreto">Usuário e /ou senha inválido.</string>
-    <string name="title_activity_cad_usuario">CadUsuarioActivity</string>
+    <string name="title_activity_cad_usuario">Cadastro de Usuários</string>
     <string name="mensagem_sucesso">Registro cadastrado com sucesso!</string>
     <string name="mensagem_atualizar">Registro atualizado com sucesso!</string>
     <string name="mensagem_erro">Erro ao salvar!</string>
@@ -27,8 +27,9 @@
     <string name="usuario_txtNome">Nome:</string>
     <string name="usuario_txtLogin">Login:</string>
     <string name="usuario_txtSenha">Senha:</string>
-    <string name="title_activity_list_usuarios">ListUsuariosActivity</string>
+    <string name="title_activity_list_usuarios">Usuários</string>
     <string name="lista_usuarios">Lista de Usuários</string>
+    <string name="cadastrar">Cadastrar</string>
 
 
 </resources>

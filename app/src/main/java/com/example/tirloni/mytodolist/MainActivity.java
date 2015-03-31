@@ -26,9 +26,6 @@ public class MainActivity extends ActionBarActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         int id = item.getItemId();
-        if (id == R.id.action_cadastro_usuarios) {
-            startActivity(new Intent(this, CadUsuarioActivity.class));
-        }
 
         if (id == R.id.action_lista_usuarios) {
             startActivity(new Intent(this, ListUsuariosActivity.class));
